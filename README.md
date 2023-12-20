@@ -15,6 +15,8 @@ chmod +x /usr/local/bin/sundial
 sudo rm -rf ./linking-client-executables
 ```
 
+Once you've generated the executable, run it on any server that has cron jobs you'd like to monitor.
+
 ****
 
 If you are **updating or redownloading** Sundial, run the below script instead.
@@ -27,8 +29,6 @@ sudo cp ./linking-client-executables/linux/sundial /usr/local/bin/sundial
 chmod +x /usr/local/bin/sundial
 sudo rm -rf ./linking-client-executables
 ```
-
-Once you've generated the executable, run it on any server that has cron jobs you'd like to monitor.
 
 ****
 
