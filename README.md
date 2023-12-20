@@ -15,7 +15,7 @@ chmod +x /usr/local/bin/sundial
 sudo rm -rf ./linking-client-executables
 ```
 
-
+****
 
 If you are **updating or redownloading** Sundial, run the below script instead.
 The steps are the same, but you'll be removing `/usr/local/bin/sundial` (this is step 2).
