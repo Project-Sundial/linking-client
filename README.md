@@ -30,8 +30,7 @@ sudo rm -rf ./linking-client-executables
 
 Once you've generated the executable, run it on any server that has cron jobs you'd like to monitor.
 
-
-
+****
 
 ## Register Nodes
 Once you've run the executable and the Linking Client is installed on your server, you'll want to register it.
