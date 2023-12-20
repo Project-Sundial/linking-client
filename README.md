@@ -4,7 +4,7 @@ If you haven't already, please install the [Monitoring Service](https://github.c
 
 
 ## Getting Started
-Please follow these steps to generate the executable (for first-time installation):
+For first-time installation, please run this script in your terminal to generate the executable :
 
 ```
 git clone https://github.com/Project-Sundial/linking-client-executables.git
