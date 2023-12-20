@@ -15,6 +15,8 @@ chmod +x /usr/local/bin/sundial
 sudo rm -rf ./linking-client-executables
 ```
 
+
+
 If you are **updating or redownloading** Sundial, run the below script instead.
 The steps are the same, but you'll be removing `/usr/local/bin/sundial` (this is step 2).
 
@@ -27,6 +29,8 @@ sudo rm -rf ./linking-client-executables
 ```
 
 Once you've generated the executable, run it on any server that has cron jobs you'd like to monitor.
+
+
 
 
 ## Register Nodes
