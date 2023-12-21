@@ -33,7 +33,7 @@ sudo rm -rf ./linking-client-executables
 ****
 
 ## Register Nodes
-Once you've run the executable and the Linking Client is installed on your server, you'll want to register it.
+Once the Linking Client is installed on your server, you'll want to register it.
 
 1. Open the Monitoring Service dashboard.
 2. Go to the Machines page.
