@@ -39,8 +39,8 @@ Once you've run the executable and the Linking Client is installed on your serve
 2. Go to the Machines page.
 3. Add a new key.
 4. Copy/paste the given script on your command line and
-   add `-d` for a **remote node**
-   OR `l` for a **local node**
+   - add `-d` for a **remote node**
+   - OR `-l` for a **local node**
 
    to the end of the pasted script.
 6. Follow any prompts (only applicable with remote nodes).
