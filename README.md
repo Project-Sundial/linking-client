@@ -38,7 +38,7 @@ Once you've run the executable and the Linking Client is installed on your serve
 1. Open the Monitoring Service dashboard.
 2. Go to the Machines page.
 3. Add a new key.
-4. Copy/paste the given script on your command line and add `-d` to the end of the pasted script.
+4. Copy/paste the given script on your command line and add `-d` (for a remote node) OR `l` (for a local node) to the end of the pasted script.
 5. Follow the prompts.
 
 The registered node should now appear on the Machines page.
