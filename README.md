@@ -1,8 +1,9 @@
 # Linking Client Executables
 This binary executable needs to be installed on every server with a crontab you'd like to monitor. 
 
+The [Monitoring Service](https://github.com/Project-Sundial/server) needs to be installed **first** in order to register any remote nodes.
 
-If you haven't already, please install the [Monitoring Service](https://github.com/Project-Sundial/server) **first**.
+Please note that we only currently support servers running **a Linux distribution**.
 
 
 ## Getting Started
