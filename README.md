@@ -31,19 +31,19 @@ sudo rm -rf ./linking-client-executables
 
 ****
 
-## Register Nodes
+## Register Machines
 Once the Linking Client is installed on your server, you'll want to register it.
 
 1. Open the Monitoring Service dashboard.
-2. Go to the Machines page.
+2. Go to the **Machines** page.
 3. Add a new key.
 4. Copy/paste the given script on your command line and
-   - add `-d` for a **remote node**
-   - OR `-l` for a **local node**
+   - add `-d` for a **remote machine**
+   - OR `-l` for a **local machine**
 
    to the end of the pasted script.
-6. Follow any prompts (only applicable with remote nodes).
+6. Follow any prompts (only applicable with remote machines).
 
-The registered node, including the IP address, should now appear on the Machines page.
+The registered node, including the IP address, should now appear on the **Machines** page.
 
 For more information, please consult [our docs](https://sundial-docs.notion.site/Documentation-30c6f3cb1290473687ef55f8e4142e2e?pvs=4)
