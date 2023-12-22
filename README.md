@@ -1,5 +1,5 @@
 # Linking Client Executables
-Install this binary executable on every server with a crontab you'd like to monitor. The [Monitoring Service](https://github.com/Project-Sundial/server) needs to be installed **first** in order to register any remote nodes.
+Install this binary executable on every server with a crontab you'd like to monitor. The [Monitoring Service](https://github.com/Project-Sundial/server) needs to be installed **first** in order to register any remote servers.
 
 Please note that we only currently support servers running **a Linux distribution** and in a VPC.
 
