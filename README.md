@@ -8,10 +8,10 @@ Please note that we only currently support servers running **a Linux distributio
 For first-time installation, please run this scripts in your terminal to generate the executable:
 
 ```
-git clone https://github.com/Project-Sundial/linking-client-executables.git
-sudo cp ./linking-client-executables/linux/sundial /usr/local/bin/sundial
+git clone https://github.com/Project-Sundial/linking-client.git
+sudo cp ./linking-client/linux/sundial /usr/local/bin/sundial
 chmod +x /usr/local/bin/sundial
-sudo rm -rf ./linking-client-executables
+sudo rm -rf ./linking-clien
 ```
 
 Once you've generated the executable, run it on any server that has cron jobs you'd like to monitor.
