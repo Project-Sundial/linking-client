@@ -1,5 +1,5 @@
 # Linking Client Executables
-Install this binary executable on every server with a crontab you'd like to monitor. The [Monitoring Service](https://github.com/Project-Sundial/server) needs to be installed **first** in order to register any remote servers.
+Install this binary executable on every server with a crontab you'd like to monitor. The [Monitoring Service](https://github.com/Project-Sundial/monitoring-service) needs to be installed **first** in order to register any remote servers.
 
 Please note that we only currently support servers running **a Linux distribution** and in a VPC.
 
@@ -22,11 +22,11 @@ If you are **updating or redownloading** Sundial, run the below script instead.
 The steps are the same, but you'll be removing `/usr/local/bin/sundial` (this is step 2).
 
 ```
-git clone https://github.com/Project-Sundial/linking-client-executables.git
+git clone https://github.com/Project-Sundial/linking-client.git
 sudo rm /usr/local/bin/sundial
-sudo cp ./linking-client-executables/linux/sundial /usr/local/bin/sundial
+sudo cp ./linking-client/linux/sundial /usr/local/bin/sundial
 chmod +x /usr/local/bin/sundial
-sudo rm -rf ./linking-client-executables
+sudo rm -rf ./linking-client
 ```
 
 ****
