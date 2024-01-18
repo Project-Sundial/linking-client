@@ -11,10 +11,34 @@ For first-time installation, please run this scripts in your terminal to generat
 git clone https://github.com/Project-Sundial/linking-client.git
 sudo cp ./linking-client/linux/sundial /usr/local/bin/sundial
 chmod +x /usr/local/bin/sundial
-sudo rm -rf ./linking-clien
+sudo rm -rf ./linking-client
 ```
+1. `git clone` is used to download the Sundial repository from GitHub to your local machine.
 
-Once you've generated the executable, run it on any server that has cron jobs you'd like to monitor.
+2. `sudo cp` copies the Sundial executable to the `/usr/local/bin directory`, making it accessible system-wide.
+
+3. `chmod +x` grants execute permissions to the Sundial executable, allowing it to be run as a command.
+
+4. `sudo rm -rf` removes the unnecessary files and directories that were cloned from the repository, keeping your system clean.
+
+
+#### This has configured a daemonized HTTP server as well as the following executable `sundial` scripts:
+
+**User Commands - User shoulde execute from CLI**
+
+| User Commands | Description |
+| --- | --- |
+| `sundial discover` | Discovers jobs in a machine’s crontab.  |
+| `sundial register` | Registers a remote machine with the Monitoring Service.  |
+
+**Service Scripts - Used by the Linking Client**
+
+| Service Scripts | Description |
+| --- | --- |
+| `sundial update` | Updates a machine’s crontab based on user actions in the Sundial UI (adding, editing, and deleting jobs). |
+| `sundial run` | Provides the Monitoring Service with the capability to monitor jobs. |
+| `sundial listen` | Executes a listening server as a background process. Listens for any job updates from the Sundial UI. |
+
 
 ****
 
@@ -39,7 +63,7 @@ Once the Linking Client is installed on your server, you'll want to register it.
 3. Add a new key.
 4. Copy/paste the given script on your command line and
    - add `-d` for a **remote machine**
-   - OR `-l` for a **local machine**
+   - OR `-l` for a **local machine** (a machine is local if the Monitoring Service is installed on the same on)
 
    to the end of the pasted script.
 6. Follow any prompts (only applicable with remote machines).
